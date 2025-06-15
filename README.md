@@ -4,9 +4,15 @@ This repository uses `ffmpeg` and [OpenAI's Whisper](https://openai.com/blog/whi
 
 ## Installation
 
-To get started, you'll need Python 3.7 or newer. Install the binary by running the following command:
+- To get started, you'll need Python 3.7 or newer max python3.11 at this time (15/06/25) pls check python version  requirements at https://github.com/openai/whisper .
+
+- Create a python vertual environment , then :
+
+ - Install the binary of this project by running the following command:
+
 
     pip install git+https://github.com/m1guelpf/auto-subtitle.git
+
 
 You'll also need to install [`ffmpeg`](https://ffmpeg.org/), which is available from most package managers:
 
@@ -19,6 +25,11 @@ brew install ffmpeg
 
 # on Windows using Chocolatey (https://chocolatey.org/)
 choco install ffmpeg
+```
+you may also need to install ffmpeg-python
+```
+pip install ffmpeg-python
+
 ```
 
 ## Usage
