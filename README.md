@@ -4,7 +4,7 @@ This repository uses `ffmpeg` and [OpenAI's Whisper](https://openai.com/blog/whi
 
 ## Installation
 
-- To get started, you'll need Python 3.7 or newer max python3.11 at this time (15/06/25) pls check python version  requirements at https://github.com/openai/whisper .
+- To get started, you'll need Python 3.7 or newer max pls check python version  requirements at https://github.com/openai/whisper .
 
 - Create a python vertual environment , then :
 
